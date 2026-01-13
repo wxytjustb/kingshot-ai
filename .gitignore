@@ -1,0 +1,140 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.ico
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# YOLO / Machine Learning
+# 模型权重文件（预训练模型除外）
+runs/
+weights/
+*.weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.h5
+*.keras
+
+# 但保留初始预训练模型（如需要可以调整）
+!yolo11n.pt
+
+# 数据集（通常不提交到git）
+# dataset/
+# *.jpg
+# *.jpeg
+# *.png
+# *.bmp
+# *.gif
+# *.tiff
+# *.mp4
+# *.avi
+
+# 数据集相关（保留配置，忽略图片）
+dataset/train/images/
+dataset/valid/images/
+dataset/test/images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.webp
+
+# 训练日志和缓存
+wandb/
+tensorboard/
+logs/
+*.log
+*.csv
+*.json.log
+
+# Ultralytics 缓存
+.ultralytics/
+
+# 测试输出
+output/
+results/
+predictions/
+*.txt.log
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z

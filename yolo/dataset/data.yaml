@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+test: ../train/images
+
+nc: 1
+names: ['newcomer_hand']
+
+roboflow:
+  workspace: rokywang
+  project: game-wlr4k
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/rokywang/game-wlr4k/1
