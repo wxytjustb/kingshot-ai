@@ -13,7 +13,7 @@ if torch.backends.mps.is_available():
     print(torch.backends.mps.is_built())
 
 model = YOLO("/opt/homebrew/runs/detect/train4/weights/last.pt")
-results = model("image1.png", conf=0.1)
+results = model("image.png", conf=0.1)
 
 results[0].show()
 
