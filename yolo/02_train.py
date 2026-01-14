@@ -5,7 +5,7 @@ model = YOLO("yolo11n.pt")
 
 # 使用MPS训练（利用M1/M2/M3/M4 GPU）
 results = model.train(
-    data="dataset/data.yaml",
+    data="game-2/data.yaml",
     epochs=100,
     batch=8,          # 小批次
     imgsz=640,

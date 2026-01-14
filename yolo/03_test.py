@@ -12,15 +12,15 @@ print(torch.backends.mps.is_available())
 if torch.backends.mps.is_available():
     print(torch.backends.mps.is_built())
 
-model = YOLO("/opt/homebrew/runs/detect/train3/weights/last.pt")
+model = YOLO("/opt/homebrew/runs/detect/train4/weights/last.pt")
 results = model("image1.png", conf=0.1)
 
-results[0]
+results[0].show()
 
-results = model.predict(
-    source="./image1.png",
-    device="mps"
-)
+# results = model.predict(
+#     source="./image1.png",
+#     device="mps"
+# )
 
-results[0]
+# results[0].show()
 
