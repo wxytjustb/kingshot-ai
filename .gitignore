@@ -93,16 +93,16 @@ weights/
 # *.avi
 
 # 数据集相关（保留配置，忽略图片）
-dataset/train/images/
-dataset/valid/images/
-dataset/test/images/
-*.jpg
-*.jpeg
-*.png
-*.bmp
-*.gif
-*.tiff
-*.webp
+# dataset/train/images/
+# dataset/valid/images/
+# dataset/test/images/
+# *.jpg
+# *.jpeg
+# *.png
+# *.bmp
+# *.gif
+# *.tiff
+# *.webp
 
 # 训练日志和缓存
 wandb/
